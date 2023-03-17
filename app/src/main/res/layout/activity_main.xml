@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearLayout"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/Dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="Dark" />
+
+
+    <Button
+        android:id="@+id/Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="Light" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:src="@drawable/photo_2153012" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:textSize="14dp"
+
+            android:text="Android is a mobile operating system based on a modified version of the Linux kernel and other open-source software, designed primarily for touchscreen mobile devices such as smartphones and tablets. Android is developed by a consortium of developers known as the Open Handset Alliance, though its most widely used version is primarily developed by Google. It was unveiled in November 2007, with the first commercial Android device, the HTC Dream, being launched in September 2008.
+
+At its core, the operating system is known as Android Open Source Project (AOSP)[4] and is free and open-source software (FOSS) primarily licensed under the Apache License. However most devices run on the proprietary Android version developed by Google, which ship with additional proprietary closed-source software pre-installed,[5] most notably Google Mobile Services (GMS)[6] which includes core apps such as Google Chrome, the digital distribution platform Google Play, and the associated Google Play Services development platform. While AOSP is free, the Android name and logo are trademarks of Google, which imposes standards to restrict the use of Android branding by uncertified devices outside their ecosystem."
+             />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="Next Page" />
+</LinearLayout>

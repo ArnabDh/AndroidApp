@@ -20,8 +20,9 @@ class MainActivity : AppCompatActivity() {
         val text=findViewById<TextView>(R.id.textView)
         val next=findViewById<Button>(R.id.next)
         upload.setOnClickListener {
-            layout.setBackgroundResource(R.color.yellow)
+            layout.setBackgroundResource(R.color.white)
             Toast.makeText(applicationContext,"Changed to read Mode",Toast.LENGTH_SHORT).show()
+            text.setTextColor(Color.parseColor("#FF000000"))
         }
         download.setOnClickListener {
             layout.setBackgroundResource(R.color.black)

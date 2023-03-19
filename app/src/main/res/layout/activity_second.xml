@@ -16,4 +16,59 @@
         tools:layout_editor_absoluteX="143dp"
         tools:layout_editor_absoluteY="198dp"
         android:src="@drawable/download" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardCornerRadius="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/rick"
+        android:backgroundTint="@color/teal_200">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="18dp"
+            android:text="Click for surprise" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="25dp"
+        android:layout_gravity="center"
+        android:id="@+id/camera"
+        android:backgroundTint="@color/purple_200">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="18dp"
+            android:text="Click for Camera" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Call" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Next Page" />
+
+
 </LinearLayout>

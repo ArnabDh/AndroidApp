@@ -34,7 +34,7 @@
         android:layout_height="200dp"
         android:layout_margin="15dp"
         android:layout_gravity="center"
-        android:src="@drawable/photo_2153012" />
+        android:src="@drawable/android" />
 
 
     <ScrollView
